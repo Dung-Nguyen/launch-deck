@@ -1,0 +1,19 @@
+.header {
+  height: 50px;
+  line-height: 50px;
+  background: $black;
+
+  .title {
+    color: $white;
+    margin: 0;
+    font-size: 17px;
+    text-align: center;
+  }
+  .btn-back {
+    position: absolute;
+    line-height: 45px;
+    z-index: 99;
+    color: $white;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,44 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+@import 'grid.scss';
+
+@import 'components/header.scss';
+@import 'components/button.scss';
+
+body {
+  margin: 0;
+}
+
+.container {
+  padding: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.user_detail {
+  li {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+
+    .avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+    .content {
+      border-bottom: 1px solid $gray;
+      width: 100%;
+      .title,
+      .sub_title {
+        margin: 0;
+      }
+      .sub_title {
+      }
+    }
+  }
+}
